@@ -2,9 +2,9 @@ package creating_product
 
 import (
 	"github.com/brianvoe/gofakeit/v6"
-	creatingproductv1commands "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/commands"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/shared/test_fixture"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/tests/unit_tests/test_data"
+	creatingproductv1commands "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/commands"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/shared/test_fixture"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/tests/unit_tests/test_data"
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

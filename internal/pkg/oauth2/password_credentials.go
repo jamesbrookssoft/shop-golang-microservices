@@ -11,7 +11,7 @@ import (
 	"github.com/go-oauth2/oauth2/v4/store"
 	"github.com/golang-jwt/jwt"
 	"github.com/labstack/echo/v4"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
 	uuid "github.com/satori/go.uuid"
 	"gorm.io/gorm"
 	"log"

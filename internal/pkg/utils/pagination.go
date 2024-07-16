@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/mapper"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/mapper"
 	"math"
 	"strconv"
 

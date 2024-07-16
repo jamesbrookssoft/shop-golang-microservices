@@ -3,13 +3,13 @@ package commands
 import (
 	"context"
 	"encoding/json"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/mapper"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/rabbitmq"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/data/contracts"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/features/registering_user/v1/dtos"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/mapper"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/rabbitmq"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/data/contracts"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/features/registering_user/v1/dtos"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/models"
 )
 
 type RegisterUserHandler struct {

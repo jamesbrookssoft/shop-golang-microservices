@@ -3,11 +3,11 @@ package commands
 import (
 	"context"
 	"github.com/mehdihadeli/go-mediatr"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/grpc"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/rabbitmq"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/data/contracts"
-	eventsv1 "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/deleting_product/v1/events"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/grpc"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/rabbitmq"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/data/contracts"
+	eventsv1 "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/deleting_product/v1/events"
 )
 
 type DeleteProductHandler struct {

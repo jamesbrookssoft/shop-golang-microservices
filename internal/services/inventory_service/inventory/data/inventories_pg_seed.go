@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/inventory_service/inventory/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/inventory_service/inventory/models"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 	"time"

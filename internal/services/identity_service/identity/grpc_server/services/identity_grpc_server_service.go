@@ -2,9 +2,9 @@ package services
 
 import (
 	"context"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/config"
-	identity_service "github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/grpc_server/protos"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/config"
+	identity_service "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/grpc_server/protos"
 )
 
 type IdentityGrpcServerService struct {

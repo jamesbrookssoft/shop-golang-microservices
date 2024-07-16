@@ -3,7 +3,7 @@ package otel
 import (
 	"context"
 	"fmt"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/exporters/jaeger"

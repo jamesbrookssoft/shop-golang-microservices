@@ -2,7 +2,7 @@ package test_data
 
 import (
 	"github.com/brianvoe/gofakeit/v6"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/models"
 	uuid "github.com/satori/go.uuid"
 	"time"
 )

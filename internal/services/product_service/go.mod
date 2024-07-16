@@ -1,8 +1,8 @@
-module github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service
+module github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service
 
 go 1.22
 
-replace github.com/meysamhadeli/shop-golang-microservices/internal/pkg => ../../pkg
+replace github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg => ../../pkg
 
 require (
 	github.com/brianvoe/gofakeit/v6 v6.19.0
@@ -12,8 +12,8 @@ require (
 	github.com/jackc/pgx/v4 v4.16.1
 	github.com/labstack/echo/v4 v4.9.1
 	github.com/mehdihadeli/go-mediatr v1.1.9
-	github.com/meysamhadeli/problem-details v1.2.4
-	github.com/meysamhadeli/shop-golang-microservices/internal/pkg v0.0.0-00010101000000-000000000000
+	github.com/jamesbrookssoft/problem-details v1.2.4
+	github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg v0.0.0-00010101000000-000000000000
 	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.0
 	github.com/sirupsen/logrus v1.9.0

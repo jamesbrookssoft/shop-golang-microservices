@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/mapper"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/inventory_service/inventory/consumers/events"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/inventory_service/inventory/models"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/inventory_service/shared/delivery"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/mapper"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/inventory_service/inventory/consumers/events"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/inventory_service/inventory/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/inventory_service/shared/delivery"
 	uuid "github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"

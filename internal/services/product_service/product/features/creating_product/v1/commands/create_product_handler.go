@@ -3,14 +3,14 @@ package commands
 import (
 	"context"
 	"encoding/json"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/grpc"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/mapper"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/rabbitmq"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/data/contracts"
-	dtosv1 "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/dtos"
-	eventsv1 "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/events"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/grpc"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/mapper"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/rabbitmq"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/data/contracts"
+	dtosv1 "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/dtos"
+	eventsv1 "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/events"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/models"
 )
 
 type CreateProductHandler struct {

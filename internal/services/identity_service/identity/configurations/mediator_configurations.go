@@ -3,11 +3,11 @@ package configurations
 import (
 	"context"
 	"github.com/mehdihadeli/go-mediatr"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/rabbitmq"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/data/contracts"
-	registeringuserv1commands "github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/features/registering_user/v1/commands"
-	registeringuserv1dtos "github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/features/registering_user/v1/dtos"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/rabbitmq"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/data/contracts"
+	registeringuserv1commands "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/features/registering_user/v1/commands"
+	registeringuserv1dtos "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/features/registering_user/v1/dtos"
 )
 
 func ConfigUsersMediator(log logger.ILogger, rabbitmqPublisher rabbitmq.IPublisher,

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/cenkalti/backoff/v4"
 	"github.com/docker/go-connections/nat"
-	gormpgsql "github.com/meysamhadeli/shop-golang-microservices/internal/pkg/gorm_pgsql"
+	gormpgsql "github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/gorm_pgsql"
 	"github.com/pkg/errors"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"

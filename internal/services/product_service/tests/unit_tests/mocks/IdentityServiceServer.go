@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	identity_service "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/grpc_client/protos"
+	identity_service "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/grpc_client/protos"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -1,8 +1,8 @@
 package seeds
 
 import (
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/models"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 	"gorm.io/gorm"

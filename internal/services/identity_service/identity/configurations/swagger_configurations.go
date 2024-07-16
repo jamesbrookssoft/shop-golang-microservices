@@ -2,7 +2,7 @@ package configurations
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/docs"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/docs"
 	echoSwagger "github.com/swaggo/echo-swagger"
 )
 

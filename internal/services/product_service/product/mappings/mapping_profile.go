@@ -1,11 +1,11 @@
 package mappings
 
 import (
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/mapper"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/dtos"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/events"
-	events2 "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/updating_product/v1/events"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/mapper"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/dtos"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/creating_product/v1/events"
+	events2 "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/updating_product/v1/events"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/models"
 )
 
 func ConfigureMappings() error {

@@ -1,7 +1,7 @@
 package queries
 
 import (
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
 )
 
 type SearchProducts struct {

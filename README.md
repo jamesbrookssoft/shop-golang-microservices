@@ -1,4 +1,4 @@
-[![CI](https://github.com/meysamhadeli/shop-golang-microservices/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/meysamhadeli/shop-golang-microservices/actions/workflows/ci.yml)
+[![CI](https://github.com/jamesbrookssoft/shop-golang-microservices/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square)](https://github.com/jamesbrookssoft/shop-golang-microservices/actions/workflows/ci.yml)
 ![Go Version](https://img.shields.io/badge/go%20version-%3E=1.21-61CFDD.svg?style=flat-square)
 # 📍 Shop Golang Microservices
 
@@ -6,23 +6,23 @@
 
 > 💡 **This project is not business-oriented and most of my focus was in the thechnical part for implement a distributed system with a sample project. In this project I implemented some concept in microservices like Messaging, Tracing, Event Driven Architecture, Vertical Slice Architecture, CQRS.**
 
-<a href="https://gitpod.io/#https://github.com/meysamhadeli/shop-golang-microservices"><img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
+<a href="https://gitpod.io/#https://github.com/jamesbrookssoft/shop-golang-microservices"><img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 # Table of Contents
 
-- [The Goals of This Project](#the-goals-of-this-project)
-- [Plan](#plan)
-- [Technologies - Libraries](#technologies---libraries)
-- [The Domain and Bounded Context - Service Boundary](#the-domain-and-bounded-context---service-boundary)
-- [Structure of Project](#structure-of-project)
-- [How to Run](#how-to-run)
-    - [Docker-Compose](#docker-compose)
-    - [Build](#build)
-    - [Run](#run)
-    - [Test](#test)
-- [Documentation Apis](#documentation-apis)  
+- [📍 Shop Golang Microservices](#-shop-golang-microservices)
+- [Table of Contents](#table-of-contents)
+  - [The Goals of This Project](#the-goals-of-this-project)
+  - [Plan](#plan)
+  - [Technologies - Libraries](#technologies---libraries)
+  - [The Domain And Bounded Context - Service Boundary](#the-domain-and-bounded-context---service-boundary)
+  - [Structure of Project](#structure-of-project)
+  - [How to Run](#how-to-run)
+        - [Todo](#todo)
 - [Support](#support)
-- [Contribution](#contribution)
+  - [Contribution](#contribution)
+  - [Project References \& Credits](#project-references--credits)
+  - [License](#license)
 
 ## The Goals of This Project
 
@@ -51,7 +51,7 @@
 
 > 🌀This project is a work in progress, new features will be added over time.🌀
 
-I will try to register future goals and additions in the [Issues](https://github.com/meysamhadeli/shop-golang-microservices/issues) section of this repository.
+I will try to register future goals and additions in the [Issues](https://github.com/jamesbrookssoft/shop-golang-microservices/issues) section of this repository.
 
 ## Technologies - Libraries
 
@@ -64,7 +64,7 @@ I will try to register future goals and additions in the [Issues](https://github
 - ✔️ **[`mehdihadeli/Go-MediatR`](https://github.com/mehdihadeli/Go-MediatR)** - This package is a Mediator Pattern implementation in Go
 - ✔️ **[`go-playground/validator`](https://github.com/go-playground/validator)** - Implements value validations for structs and individual fields based on tags
 - ✔️ **[`open-telemetry/opentelemetry-go`](https://github.com/open-telemetry/opentelemetry-go)** - Implementation of OpenTelemetry in Go for distributed-tracing
-- ✔️ **[`meysamhadeli/problem-details`](https://github.com/meysamhadeli/problem-details)** - Error Handler for mapping our error to standardized error payload to client
+- ✔️ **[`jamesbrookssoft/problem-details`](https://github.com/jamesbrookssoft/problem-details)** - Error Handler for mapping our error to standardized error payload to client
 - ✔️ **[`go-resty/resty`](https://github.com/go-resty/resty)** - Simple HTTP and REST client library for Go (inspired by Ruby rest-client)
 - ✔️ **[`grpc/grpc-go`](https://github.com/grpc/grpc-go)** - The Go language implementation of gRPC. HTTP/2 based RPC
 - ✔️ **[`go-oauth2/oauth2`](https://github.com/go-oauth2/oauth2)** - An open protocol to allow secure authorization in a simple and standard method
@@ -167,7 +167,7 @@ Thanks a bunch for supporting me!
 
 ## Contribution
 
-Thanks to all [contributors](https://github.com/meysamhadeli/shop-golang-microservices/graphs/contributors), you're awesome and this wouldn't be possible without you! The goal is to build a categorized community-driven collection of very well-known resources.
+Thanks to all [contributors](https://github.com/jamesbrookssoft/shop-golang-microservices/graphs/contributors), you're awesome and this wouldn't be possible without you! The goal is to build a categorized community-driven collection of very well-known resources.
 
 Please follow this [contribution guideline](./CONTRIBUTION.md) to submit a pull request or create the issue.
 
@@ -180,4 +180,4 @@ Please follow this [contribution guideline](./CONTRIBUTION.md) to submit a pull 
 - [https://github.com/jbogard/ContosoUniversityDotNetCore-Pages](https://github.com/jbogard/ContosoUniversityDotNetCore-Pages)
 
 ## License
-This project is made available under the MIT license. See [LICENSE](https://github.com/meysamhadeli/shop-golang-microservices/blob/main/LICENSE) for details.
+This project is made available under the MIT license. See [LICENSE](https://github.com/jamesbrookssoft/shop-golang-microservices/blob/main/LICENSE) for details.

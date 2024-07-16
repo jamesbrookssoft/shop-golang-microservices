@@ -1,4 +1,4 @@
-module github.com/meysamhadeli/shop-golang-microservices/internal/pkg
+module github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg
 
 go 1.22
 

@@ -3,13 +3,13 @@ package queries
 import (
 	"context"
 	"fmt"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/grpc"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/mapper"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/rabbitmq"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/data/contracts"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/dtos"
-	dtosv1 "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/getting_product_by_id/v1/dtos"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/grpc"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/mapper"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/rabbitmq"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/data/contracts"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/dtos"
+	dtosv1 "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/getting_product_by_id/v1/dtos"
 	"github.com/pkg/errors"
 )
 

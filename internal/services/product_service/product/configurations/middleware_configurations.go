@@ -3,11 +3,11 @@ package configurations
 import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	echomiddleware "github.com/meysamhadeli/shop-golang-microservices/internal/pkg/http/echo/middleware"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/otel"
-	otelmiddleware "github.com/meysamhadeli/shop-golang-microservices/internal/pkg/otel/middleware"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/constants"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/middlewares"
+	echomiddleware "github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/http/echo/middleware"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/otel"
+	otelmiddleware "github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/otel/middleware"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/constants"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/middlewares"
 	"strings"
 )
 

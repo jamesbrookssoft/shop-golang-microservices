@@ -1,8 +1,8 @@
 package mappings
 
 import (
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/dtos"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/dtos"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/models"
 )
 
 func ProductToProductResponseDto(product *models.Product) *dtos.ProductDto {

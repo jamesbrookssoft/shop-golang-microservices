@@ -2,7 +2,7 @@ package middlewares
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/meysamhadeli/problem-details"
+	"github.com/jamesbrookssoft/problem-details"
 	log "github.com/sirupsen/logrus"
 )
 

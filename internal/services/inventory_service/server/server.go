@@ -3,9 +3,9 @@ package server
 import (
 	"context"
 	"github.com/labstack/echo/v4"
-	echoserver "github.com/meysamhadeli/shop-golang-microservices/internal/pkg/http/echo/server"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/inventory_service/config"
+	echoserver "github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/http/echo/server"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/inventory_service/config"
 	"github.com/pkg/errors"
 	"go.uber.org/fx"
 	"net/http"

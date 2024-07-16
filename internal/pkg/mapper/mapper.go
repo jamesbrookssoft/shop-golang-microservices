@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"github.com/ahmetb/go-linq/v3"
 	"github.com/iancoleman/strcase"
-	reflectionHelper "github.com/meysamhadeli/shop-golang-microservices/internal/pkg/reflection/reflection_helper"
+	reflectionHelper "github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/reflection/reflection_helper"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"reflect"

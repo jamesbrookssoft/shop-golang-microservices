@@ -2,8 +2,8 @@ package contracts
 
 import (
 	"context"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/models"
 
 	uuid "github.com/satori/go.uuid"
 )

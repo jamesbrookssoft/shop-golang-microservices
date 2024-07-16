@@ -5,11 +5,11 @@ import (
 	"github.com/go-playground/validator"
 	"github.com/labstack/echo/v4"
 	"github.com/mehdihadeli/go-mediatr"
-	echomiddleware "github.com/meysamhadeli/shop-golang-microservices/internal/pkg/http/echo/middleware"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
-	dtosv1 "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/getting_products/v1/dtos"
-	queriesv1 "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/features/getting_products/v1/queries"
+	echomiddleware "github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/http/echo/middleware"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
+	dtosv1 "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/getting_products/v1/dtos"
+	queriesv1 "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/features/getting_products/v1/queries"
 	"net/http"
 )
 

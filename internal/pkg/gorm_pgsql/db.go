@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 	"github.com/cenkalti/backoff/v4"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
 	"github.com/pkg/errors"
 	"github.com/uptrace/bun/driver/pgdriver"
 	gorm_postgres "gorm.io/driver/postgres"

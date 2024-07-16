@@ -2,7 +2,7 @@ package contracts
 
 import (
 	"context"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/inventory_service/inventory/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/inventory_service/inventory/models"
 	uuid "github.com/satori/go.uuid"
 )
 

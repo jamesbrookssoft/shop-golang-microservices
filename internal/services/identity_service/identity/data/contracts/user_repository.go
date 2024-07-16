@@ -2,7 +2,7 @@ package contracts
 
 import (
 	"context"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/models"
 )
 
 type UserRepository interface {

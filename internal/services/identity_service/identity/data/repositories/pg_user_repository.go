@@ -3,10 +3,10 @@ package repositories
 import (
 	"context"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/pkg/logger"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/config"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/data/contracts"
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/identity_service/identity/models"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/logger"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/config"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/data/contracts"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/identity_service/identity/models"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

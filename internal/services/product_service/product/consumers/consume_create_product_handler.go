@@ -1,7 +1,7 @@
 package consumers
 
 import (
-	"github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/shared/delivery"
+	"github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/shared/delivery"
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/amqp"
 )

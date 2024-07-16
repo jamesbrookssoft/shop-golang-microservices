@@ -7,9 +7,9 @@ import (
 
 	mock "github.com/stretchr/testify/mock"
 
-	models "github.com/meysamhadeli/shop-golang-microservices/internal/services/product_service/product/models"
+	models "github.com/jamesbrookssoft/shop-golang-microservices/internal/services/product_service/product/models"
 
-	utils "github.com/meysamhadeli/shop-golang-microservices/internal/pkg/utils"
+	utils "github.com/jamesbrookssoft/shop-golang-microservices/internal/pkg/utils"
 
 	uuid "github.com/satori/go.uuid"
 )
